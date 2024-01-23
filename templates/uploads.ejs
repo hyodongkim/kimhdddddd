@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form action="/upload/single" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"/>
+            <button type="submit">Single 업로드</button>
+        </form>
+        <form action="/upload/array" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" multiple/>
+            <button type="submit">Array 업로드</button>
+        </form>
+    </body>
+</html>
